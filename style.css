@@ -50,3 +50,9 @@ nav ul {
   transform: translate(-50%, -75%);
 
 }
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
