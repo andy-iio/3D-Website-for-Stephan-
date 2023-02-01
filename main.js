@@ -7,12 +7,12 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 const scene = new THREE.Scene();
 
 //create textures
-const groundTexture = new THREE.TextureLoader().load('./img/groundTexture.png');
-const houseTexture = new THREE.TextureLoader().load('./img/restaraunt.png');
-const hotelTexture = new THREE.TextureLoader().load('./img/hotel.png');
-const roadTexture = new THREE.TextureLoader().load('./img/road.png');
-const treeTexture = new THREE.TextureLoader().load('./img/pine.png');
-const carTexture = new THREE.TextureLoader().load('./img/car.png');
+const groundTexture = new THREE.TextureLoader().load('img/groundTexture.png');
+const houseTexture = new THREE.TextureLoader().load('img/restaraunt.png');
+const hotelTexture = new THREE.TextureLoader().load('img/hotel.png');
+const roadTexture = new THREE.TextureLoader().load('img/road.png');
+const treeTexture = new THREE.TextureLoader().load('/img/pine.png');
+const carTexture = new THREE.TextureLoader().load('img/car.png');
 
 
 //create base ground
